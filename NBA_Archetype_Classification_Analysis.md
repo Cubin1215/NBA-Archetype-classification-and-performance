@@ -447,6 +447,9 @@ fig_all.update_traces(fill='toself')
 fig_all.show()
 ```
 
+**📊 CHART OUTPUT: Combined Radar Chart**
+*When you run this code, you'll see an interactive radar chart showing all 13 archetypes with different colors. Each archetype will be represented as a filled polygon, making it easy to compare their statistical profiles across all metrics.*
+
 **Chart Interpretation:**
 - **Radius (r-axis):** Represents the scaled value (0-1) for each statistic
 - **Angle (theta-axis):** Represents different statistical categories
@@ -501,6 +504,9 @@ for archetype_name in df_long_format['Archetype_Name'].unique():
 
     fig.show()
 ```
+
+**📊 CHART OUTPUT: Individual Archetype Radar Charts**
+*Running this code will generate 13 separate radar charts, one for each archetype. Each chart will show the specific statistical profile of that archetype with a filled polygon representing their strengths and weaknesses across all metrics.*
 
 #### Enhanced Radar Charts with Additional Features
 
@@ -572,6 +578,9 @@ for archetype_name in df_long_format_extended['Archetype_Name'].unique():
     fig.show()
 ```
 
+**📊 CHART OUTPUT: Enhanced Individual Archetype Radar Charts**
+*This code generates enhanced radar charts with additional statistical categories (FG%, 3P%, eFG%, FT%) for each archetype, providing a more comprehensive view of their shooting and efficiency profiles.*
+
 #### Saving Radar Charts as Images
 
 To save the radar charts for presentations or reports:
@@ -626,6 +635,13 @@ for archetype_name in df_long_format['Archetype_Name'].unique():
     fig.write_image(f"archetype_profile_{filename_safe}.png")
     print(f"Saved: archetype_profile_{filename_safe}.png")
 ```
+
+**📊 CHART OUTPUT: Saved Radar Chart Images**
+*This code will save each archetype's radar chart as a PNG file in your working directory. You'll get 13 files named like:*
+- `archetype_profile_Off-ball_3D_three-point_shooters.png`
+- `archetype_profile_Scoring_mobile_centers.png`
+- `archetype_profile_Efficient_mid-size_scorers.png`
+- *... and so on for all 13 archetypes*
 
 **Visualization Features:**
 - **Interactive charts** that can be zoomed and hovered over
