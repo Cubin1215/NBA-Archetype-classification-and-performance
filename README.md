@@ -1,7 +1,6 @@
 # 🏀 NBA Archetype Analyzer: Unlocking Player Roles for Strategic Lineup Building
 
-![Project Banner](images/banner.png) [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Project Banner](images/project_banner.png)
 
 ## 🌟 Project Overview
 
@@ -53,43 +52,45 @@ Below is a comparison showcasing the general statistical profiles of our 13 arch
 Here are detailed radar charts for each of the 13 archetypes, highlighting their unique blend of skills across various dimensions:
 
 * **Off-ball 3&D Three-Point Shooters:**
-    ![Off-ball 3&D Three-Point Shooters Profile](images/archetype_0_off_ball_3d_shooter_radar.png)
+    ![Off-ball 3&D Three-Point Shooters Profile](images/archetype_0_off_ball_3d_shooter_radar.png)<br />
 
 * **Scoring Mobile Centers:**
-    ![Scoring Mobile Centers Profile](images/archetype_1_scoring_mobile_center_radar.png)
+    ![Scoring Mobile Centers Profile](images/archetype_1_scoring_mobile_center_radar.png)<br />
 
 * **Efficient Mid-Size Scorers:**
-    ![Efficient Mid-size Scorers Profile](images/archetype_2_efficient_mid_size_scorer_radar.png)
+    ![Efficient Mid-size Scorers Profile](images/archetype_2_efficient_mid_size_scorer_radar.png)<br />
 
 * **Veteran Pure Guards:**
-    ![Veteran Pure Guards Profile](images/archetype_3_veteran_pure_guard_radar.png)
+    ![Veteran Pure Guards Profile](images/archetype_3_veteran_pure_guard_radar.png)<br />
 
 * **Mid-size Defensive Forwards:**
-    ![Mid-size Defensive Forwards Profile](images/archetype_4_mid_size_defensive_forward_radar.png)
+    ![Mid-size Defensive Forwards Profile](images/archetype_4_mid_size_defensive_forward_radar.png)<br />
 
 * **High-Volume Perimeter Playmakers:**
-    ![High-Volume Perimeter Playmakers Profile](images/archetype_5_high_volume_playmaker_radar.png)
+    ![High-Volume Perimeter Playmakers Profile](images/archetype_5_high_volume_playmaker_radar.png)<br />
 
 * **Midcourt 3&D Reserves:**
-    ![Midcourt 3&D Reserves Profile](images/archetype_6_midcourt_3d_reserve_radar.png)
+    ![Midcourt 3&D Reserves Profile](images/archetype_6_midcourt_3d_reserve_radar.png)<br />
 
 * **Low-scoring, Playmaking Defensive Wings:**
-    ![Low-scoring, Playmaking Defensive Wings Profile](images/archetype_7_low_scoring_defensive_wing_radar.png)
+    ![Low-scoring, Playmaking Defensive Wings Profile](images/archetype_7_low_scoring_defensive_wing_radar.png)<br />
 
 * **Efficient Rebounding Paint Protectors:**
-    ![Efficient Rebounding Paint Protectors Profile](images/archetype_8_efficient_paint_protector_radar.png)
+    ![Efficient Rebounding Paint Protectors Profile](images/archetype_8_efficient_paint_protector_radar.png)<br />
 
 * **All-around High-Usage Bigs:**
-    ![All-around High-Usage Bigs Profile](images/archetype_9_all_around_high_usage_big_radar.png)
+    ![All-around High-Usage Bigs Profile](images/archetype_9_all_around_high_usage_big_radar.png)<br />
 
 * **High-volume, Versatile Scorers:**
-    ![High-volume, Versatile Scorers Profile](images/archetype_10_all_around_offensive_shooter_radar.png)
+    ![High-volume, Versatile Scorers Profile](images/archetype_10_all_around_offensive_shooter_radar.png)<br />
 
 * **Low-volume Defensive Playmakers:**
-    ![Low-volume Defensive Playmakers Profile](images/archetype_11_low_volume_defensive_playmaker_radar.png)
+    ![Low-volume Defensive Playmakers Profile](images/archetype_11_low_volume_defensive_playmaker_radar.png)<br />
 
 * **High-impact Playmaking Scorers:**
-    ![High-impact Playmaking Scorers Profile](images/archetype_12_high_impact_playmaking_scorer_radar.png) ### The 13 Archetypes: A Detailed Look
+    ![High-impact Playmaking Scorers Profile](images/archetype_12_high_impact_playmaking_scorer_radar.png)<br />
+    
+### The 13 Archetypes: A Detailed Look
 
 | Cluster ID | Archetype Name                             | Defining Traits (Key Stats)                                     | Typical Positions | Example Players (from data)                   |
 | :--------- | :----------------------------------------- | :-------------------------------------------------------------- | :---------------- | :-------------------------------------------- |
@@ -116,31 +117,7 @@ These archetypes are more than just clusters; they are a strategic lens for unde
 * **Player Development:** Tailor development plans for young players to cultivate them into specific, valuable archetypes.
 * **Fantasy Basketball & Betting:** Gain an edge by predicting how certain archetypes might perform in specific matchups or roles.
 
-## 🚧 Limitations & Future Work
-
-While this project provides a robust foundation, it's important to acknowledge its current scope and areas for future expansion:
-
-* **Quantified Historical Synergy:** This project defines player *types*, but does not historically quantify the performance uplift (or detriment) when specific archetype combinations play together. This would require large-scale, minute-level lineup data analysis.
-* **Real-time External Factors:** Dynamic influences like current player injuries, recent travel schedules, or the impact of "contract years" were not integrated but could significantly refine performance predictions.
-* **Predictive Modeling:** The project currently classifies players and suggests strategic principles. Future work could involve building machine learning models to predict game outcomes or lineup effectiveness against specific opponents.
-
 ---
-
-## 🚀 Getting Started
-
-To explore this project yourself:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/nba-archetype-analyzer.git](https://github.com/your-username/nba-archetype-analyzer.git)
-    cd nba-archetype-analyzer
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install pandas scikit-learn plotly matplotlib numpy jupyter
-    ```
-3.  **Download Data:** Obtain the [NBA Player Statistics dataset from Kaggle](https://www.kaggle.com/datasets/joebeachcapital/nba-player-statistics) and place it in your project's `data/` directory (or update the file path in the code).
-4.  **Run the Notebook:** Open and run the Jupyter Notebook (e.g., `nba_archetype_analysis.ipynb`) cell by cell to see the full process from data cleaning to archetype visualization.
 
 ## 🛠️ Technologies Used
 
@@ -150,15 +127,3 @@ To explore this project yourself:
 * **Scikit-learn:** For K-Means clustering and data preprocessing (e.g., `StandardScaler`, `MinMaxScaler`).
 * **Plotly:** For interactive and compelling data visualizations (radar charts).
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contact
-
-Feel free to connect or ask questions!
-
-* **Your Name:** [Your GitHub Profile Link](https://github.com/your-username)
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-
----
