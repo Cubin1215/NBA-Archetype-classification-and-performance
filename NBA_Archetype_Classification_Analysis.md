@@ -447,8 +447,10 @@ fig_all.update_traces(fill='toself')
 fig_all.show()
 ```
 
-**📊 CHART OUTPUT: Combined Radar Chart**
-*When you run this code, you'll see an interactive radar chart showing all 13 archetypes with different colors. Each archetype will be represented as a filled polygon, making it easy to compare their statistical profiles across all metrics.*
+**📊 Combined Radar Chart Output:**
+![All Archetypes Combined](images/all_archetypes_comparison_radar.png)
+
+*This chart shows all 13 archetypes with different colors. Each archetype is represented as a filled polygon, making it easy to compare their statistical profiles across all metrics.*
 
 **Chart Interpretation:**
 - **Radius (r-axis):** Represents the scaled value (0-1) for each statistic
@@ -505,8 +507,35 @@ for archetype_name in df_long_format['Archetype_Name'].unique():
     fig.show()
 ```
 
-**📊 CHART OUTPUT: Individual Archetype Radar Charts**
-*Running this code will generate 13 separate radar charts, one for each archetype. Each chart will show the specific statistical profile of that archetype with a filled polygon representing their strengths and weaknesses across all metrics.*
+**📊 Individual Archetype Radar Charts Output:**
+
+![Off-ball 3&D Three-Point Shooters](images/archetype_0_off_ball_3d_shooter_radar.png)
+
+![Scoring Mobile Centers](images/archetype_1_scoring_mobile_center_radar.png)
+
+![Efficient Mid-size Scorers](images/archetype_2_efficient_mid_size_scorer_radar.png)
+
+![Veteran Pure Guards](images/archetype_3_veteran_pure_guard_radar.png)
+
+![Mid-size Defensive Forwards](images/archetype_4_mid_size_defensive_forward_radar.png)
+
+![High-volume Perimeter Playmakers](images/archetype_5_high_volume_playmaker_radar.png)
+
+![Midcourt 3&D Reserves](images/archetype_6_midcourt_3d_reserve_radar.png)
+
+![Low-scoring, Playmaking Defensive Wings](images/archetype_7_low_scoring_defensive_wing_radar.png)
+
+![Efficient Rebounding Paint Protectors](images/archetype_8_efficient_paint_protector_radar.png)
+
+![All-around High-usage Bigs](images/archetype_9_all_around_high_usage_big_radar.png)
+
+![High-volume, Versatile Scorers](images/archetype_10_all_around_offensive_shooter_radar.png)
+
+![Low-volume Defensive Playmakers](images/archetype_11_low_volume_defensive_playmaker_radar.png)
+
+![High-impact Playmaking Scorers](images/archetype_12_high_impact_playmaking_scorer_radar.png)
+
+*These charts show the specific statistical profile of each archetype with a filled polygon representing their strengths and weaknesses across all metrics.*
 
 #### Enhanced Radar Charts with Additional Features
 
@@ -636,7 +665,7 @@ for archetype_name in df_long_format['Archetype_Name'].unique():
     print(f"Saved: archetype_profile_{filename_safe}.png")
 ```
 
-**📊 CHART OUTPUT: Saved Radar Chart Images**
+**📊 Saved Radar Chart Images**
 *This code will save each archetype's radar chart as a PNG file in your working directory. You'll get 13 files named like:*
 - `archetype_profile_Off-ball_3D_three-point_shooters.png`
 - `archetype_profile_Scoring_mobile_centers.png`
@@ -649,6 +678,31 @@ for archetype_name in df_long_format['Archetype_Name'].unique():
 - **Scaled values (0-1)** for fair comparison across different statistics
 - **Multiple chart types:** Combined view and individual archetype profiles
 - **Export capabilities** for presentations and reports
+
+### Generating the Radar Chart Images
+
+The radar chart images shown above were generated using the `generate_radar_charts.py` script. To recreate these images:
+
+```bash
+# Install required dependencies
+pip install plotly kaleido pandas scikit-learn
+
+# Run the script
+python generate_radar_charts.py
+```
+
+This script will:
+1. Load and process your NBA data
+2. Perform the clustering analysis
+3. Generate individual radar charts for each archetype
+4. Create a combined radar chart showing all archetypes
+5. Save all charts as PNG files in an `images/` directory
+
+**Generated Files:**
+- `images/all_archetypes_comparison_radar.png` - Combined view of all 13 archetypes
+- `images/archetype_[number]_[name]_radar.png` - Individual archetype profiles
+
+The images are automatically included in this markdown file using standard markdown image syntax.
 
 ---
 

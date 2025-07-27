@@ -43,28 +43,52 @@ Our analysis revealed **13 unique and highly descriptive NBA player archetypes**
 
 ### Visualizing the Archetype Landscape
 
-Below is a comparison showcasing the general statistical profiles of our 13 archetypes. Hover over the charts for detailed insights!
+Below is a comparison showcasing the general statistical profiles of our 13 archetypes. Each radar chart shows the scaled statistical profile (0-1) across key metrics including Points, Assists, Rebounds, 3-Point Shooting, Blocks, Steals, Turnovers, and Effective Field Goal Percentage.
 
 * **Overall Archetype Comparison:**
-    ![Overall Archetypes Radar Chart](images/all_archetypes_comparison_radar.png) *(If you used the single-frame chart with all 13 archetypes)*
+    ![Overall Archetypes Radar Chart](images/all_archetypes_comparison_radar.png)
 
 ### Diving into Individual Archetype Profiles
 
 Here are detailed radar charts for each of the 13 archetypes, highlighting their unique blend of skills across various dimensions:
 
 * **Off-ball 3&D Three-Point Shooters:**
-    ![Off-ball 3&D Three-Point Shooters Profile](images/archetype_0_off_ball_3d_shooter_radar.png) * **Scoring Mobile Centers:**
-    ![Scoring Mobile Centers Profile](images/archetype_1_scoring_mobile_center_radar.png) * **Efficient Mid-Size Scorers:**
-    ![Efficient Mid-size Scorers Profile](images/archetype_2_efficient_mid_size_scorer_radar.png) * **Veteran Pure Guards:**
-    ![Veteran Pure Guards Profile](images/archetype_3_veteran_pure_guard_radar.png) * **Mid-size Defensive Forwards:**
-    ![Mid-size Defensive Forwards Profile](images/archetype_4_mid_size_defensive_forward_radar.png) * **High-Volume Perimeter Playmakers:**
-    ![High-Volume Perimeter Playmakers Profile](images/archetype_5_high_volume_playmaker_radar.png) * **Midcourt 3&D Reserves:**
-    ![Midcourt 3&D Reserves Profile](images/archetype_6_midcourt_3d_reserve_radar.png) * **Low-scoring, Playmaking Defensive Wings:**
-    ![Low-scoring, Playmaking Defensive Wings Profile](images/archetype_7_low_scoring_defensive_wing_radar.png) * **Efficient Rebounding Paint Protectors:**
-    ![Efficient Rebounding Paint Protectors Profile](images/archetype_8_efficient_paint_protector_radar.png) * **All-around High-Usage Bigs:**
-    ![All-around High-Usage Bigs Profile](images/archetype_9_all_around_high_usage_big_radar.png) * **All-around Offensive Shooters:**
-    ![All-around Offensive Shooters Profile](images/archetype_10_all_around_offensive_shooter_radar.png) * **Low-volume Defensive Playmakers:**
-    ![Low-volume Defensive Playmakers Profile](images/archetype_11_low_volume_defensive_playmaker_radar.png) * **High-impact Playmaking Scorers:**
+    ![Off-ball 3&D Three-Point Shooters Profile](images/archetype_0_off_ball_3d_shooter_radar.png)
+
+* **Scoring Mobile Centers:**
+    ![Scoring Mobile Centers Profile](images/archetype_1_scoring_mobile_center_radar.png)
+
+* **Efficient Mid-Size Scorers:**
+    ![Efficient Mid-size Scorers Profile](images/archetype_2_efficient_mid_size_scorer_radar.png)
+
+* **Veteran Pure Guards:**
+    ![Veteran Pure Guards Profile](images/archetype_3_veteran_pure_guard_radar.png)
+
+* **Mid-size Defensive Forwards:**
+    ![Mid-size Defensive Forwards Profile](images/archetype_4_mid_size_defensive_forward_radar.png)
+
+* **High-Volume Perimeter Playmakers:**
+    ![High-Volume Perimeter Playmakers Profile](images/archetype_5_high_volume_playmaker_radar.png)
+
+* **Midcourt 3&D Reserves:**
+    ![Midcourt 3&D Reserves Profile](images/archetype_6_midcourt_3d_reserve_radar.png)
+
+* **Low-scoring, Playmaking Defensive Wings:**
+    ![Low-scoring, Playmaking Defensive Wings Profile](images/archetype_7_low_scoring_defensive_wing_radar.png)
+
+* **Efficient Rebounding Paint Protectors:**
+    ![Efficient Rebounding Paint Protectors Profile](images/archetype_8_efficient_paint_protector_radar.png)
+
+* **All-around High-Usage Bigs:**
+    ![All-around High-Usage Bigs Profile](images/archetype_9_all_around_high_usage_big_radar.png)
+
+* **High-volume, Versatile Scorers:**
+    ![High-volume, Versatile Scorers Profile](images/archetype_10_all_around_offensive_shooter_radar.png)
+
+* **Low-volume Defensive Playmakers:**
+    ![Low-volume Defensive Playmakers Profile](images/archetype_11_low_volume_defensive_playmaker_radar.png)
+
+* **High-impact Playmaking Scorers:**
     ![High-impact Playmaking Scorers Profile](images/archetype_12_high_impact_playmaking_scorer_radar.png) ### The 13 Archetypes: A Detailed Look
 
 | Cluster ID | Archetype Name                             | Defining Traits (Key Stats)                                     | Typical Positions | Example Players (from data)                   |
