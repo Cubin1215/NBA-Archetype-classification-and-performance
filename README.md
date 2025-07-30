@@ -131,6 +131,7 @@ These full statistics, plus other analyses, are visible in the "Full League Anal
 These archetypes are more than just clusters; they are a strategic lens for understanding NBA dynamics:
 
 * **Optimized Lineup Balancing:** Instead of relying on rigid positions, teams can now construct lineups ensuring a strategic mix of archetypes (e.g., pairing a "High-impact Playmaking Scorer" with a "Off-ball 3&D Three-Point Shooter" for spacing, and an "Efficient Rebounding Paint Protector" for defense).
+* **Visual Comparison to the League Average:** Utilizing Excel visuals to digestibly compare cluster profiles to wider league trends. 
 * **Player Scouting & Draft Strategy:** Identify specific archetype "gaps" on a roster to target in free agency or the NBA Draft.
 * **Player Development:** Tailor development plans for young players to cultivate them into specific, valuable archetypes.
 * **Fantasy Basketball & Betting:** Gain an edge by predicting how certain archetypes might perform in specific matchups or roles.
@@ -142,6 +143,7 @@ These archetypes are more than just clusters; they are a strategic lens for unde
 * **Python:** The core programming language.
 * **Pandas:** For data manipulation and analysis.
 * **NumPy:** For numerical operations.
+* **Excel:** For visual comparison of archetypes, league-wide statistics, and positional analysis.
 * **Scikit-learn:** For K-Means clustering and data preprocessing (e.g., `StandardScaler`, `MinMaxScaler`).
 * **Plotly:** For interactive and compelling data visualizations (radar charts).
 
