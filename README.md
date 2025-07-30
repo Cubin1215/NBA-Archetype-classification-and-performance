@@ -92,7 +92,7 @@ Here are detailed radar charts for each of the 13 archetypes, highlighting their
 
 ## Visualizing the Archetypes Compared to the League Average
 
-This analysis also utilizes Excel to provide another angle on the archetypes' statistical profiles. The below image compares each archetype's average statistics per 36 minutes to the league average per 36 minutes. Red-highlighted and negative percentages (below their respective row) indicate that the above statistic is lower than the league average, whereas green, positive statistics indicate that the above statistic is higher than the league average. The darker a color is, the higher the degree of difference from the average. 
+This analysis also utilizes Excel to provide another angle on the archetypes' statistical profiles. The below image compares each archetype's average statistics per 36 minutes to the league average per 36 minutes (highlighted in yellow). Red-highlighted and negative percentages (below their respective row) indicate that the above statistic is lower than the league average, whereas green, positive statistics indicate that the above statistic is higher than the league average. The darker a color is, the higher the degree of difference from the average. 
 
 These full statistics, plus other analyses, are visible in the "Full League Analysis" Excel file in the above repository. 
 
