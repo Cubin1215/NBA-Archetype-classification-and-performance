@@ -89,6 +89,15 @@ Here are detailed radar charts for each of the 13 archetypes, highlighting their
 
 * **High-impact Playmaking Scorers:**
     ![High-impact Playmaking Scorers Profile](images/archetype_12_high_impact_playmaking_scorer_radar.png)<br />
+
+## Visualizing the Archetypes Compared to the League Average
+
+This analysis also utilizes Excel to provide another angle on the archetypes' statistical profiles. The below image compares each archetype's average statistics per 36 minutes to the league average per 36 minutes. Red-highlighted and negative percentages (below their respective row) indicate that the above statistic is lower than the league average, whereas green, positive statistics indicate that the above statistic is higher than the league average. The darker a color is, the higher the degree of difference from the average. 
+
+These full statistics, plus other analyses, are visible in the "Full League Analysis" Excel file in the above repository. 
+
+<img width="1528" height="732" alt="Screenshot 2025-07-30 at 6 17 35 PM" src="https://github.com/user-attachments/assets/d3066c4d-68b6-4574-bf6c-a1a79017a855" />
+
     
 ### The 13 Archetypes: A Detailed Look
 
@@ -107,6 +116,15 @@ Here are detailed radar charts for each of the 13 archetypes, highlighting their
 | 10         | **All-around Offensive Shooters** | High PTS/FGA, Good 3P%/eFG%, Balanced AST/TRB                 | SG, SF, PF        | Pascal Siakam, Anthony Edwards                |
 | 11         | **Low-volume Defensive Playmakers** | Moderate AST, Good STL/BLK, Low PTS/FGA, Efficient           | PG, SG, SF        | Mikal Bridges, Chris Paul                     |
 | 12         | **High-impact Playmaking Scorers** | Top-tier PTS, Top-tier AST, Very High Usage/TOV, High 3PA     | PG, SG, SF        | Luka Dončić, Damian Lillard, Jayson Tatum     |
+
+## Overall League Statistical Analysis
+
+The below chart takes a similar tack to the first visualization of clusters relative to league average, but rather, the players are being compared against each other as well as an objective league average. White cells are closer to the 50th percentile of the given statistics; green cells are higher than the 50th percentile, and red are lower. As mentioned previously, darker highlights in either direction indicate a higher degree of difference. 
+
+These full statistics, plus other analyses, are visible in the "Full League Analysis" Excel file in the above repository. 
+
+<img width="1544" height="740" alt="Screenshot 2025-07-30 at 6 19 35 PM" src="https://github.com/user-attachments/assets/7e40c986-9a54-41ff-8e9a-c1ad5eec07c9" />
+
 
 ## 🏀 Strategic Value & Applications
 
